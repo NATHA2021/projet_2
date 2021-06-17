@@ -1,9 +1,9 @@
 /* Définition des polices personnalisées */
 @font-face{
-	font-family: font-family: 'Raleway', sans-serif;
+	font-family:'Raleway', sans-serif;
 }
 .bloc_page{
-	width: 1200px;
+	width: 900px;
     margin-left: 50px ;
 }
 nav ul{
@@ -21,41 +21,41 @@ nav a{
 	text-decoration: none;
 }
 .description{
-	display: flex;
 	font-family: 'Raleway' sans-serif;
 	font-size: 1.2em;
-	font-weight: bold;
-	align-self: flex-end;
-	padding-top: 5px;
-
-
 }
-.places{
-	font-family:'Raleway' sans-serif;
-	display: flex;
-	justify-content: flex-start;
-}
+
 .ville{
-	display: flex;
-	font-weight: bold;
 	font-family: 'Raleway' sans-serif;
+	width: 50px;
+	height: 40px;
+	border: 1px solid #F2F2F2;
 }
-	
 .photo_reservia{
 	display: flex:
 	align-self: flex-end;
 
 }
-.rechecher{
-	background-color: #0065FC ;
+.rechercher{
+	background-color: #0065FC;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #0065FC;
+	border-radius: 5px;
+
 
 }
-#conteneur{
+.container1{
 	color: black;
+	font-weight: bold;
+	font-family: 'Raleway' sans-serif;
+	flex-direction: row;
+	justify-content: space-evenly;
 	display: flex;
-	display direction: row;
-	justify-content: space-between;
+
 }
+
+
 nav2 ul{
 	list-style-type: none;
 	display: flex;
@@ -71,13 +71,9 @@ nav2 a{
 	text-decoration: none;
 	font-weight: bold;
 }
-.blue{
-	color: blue;
-}
 .description2{
 	font-family:'Raleway'sans-serif;
-	display: flex;
-	margin-left: 50px;
+
 }
 article{
 	flex: 1.2;
@@ -91,5 +87,18 @@ article{
 	color: black;
 	font-size: 0.9em;
 }
+.blue{
+	color: #0065FC;
+}
+.money{
+	background: #DEEBFF ;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+
+
+}
+
+
 
 
