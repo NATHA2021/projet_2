@@ -16,13 +16,22 @@ nav li{
 }
 nav a{
 	font-family:'Raleway', sans-serif;
-	font-size: 0.9 em;
+	font-size: 0.9em;
 	color: #0065FC ;
 	text-decoration: none;
 }
+
 .description{
 	font-family: 'Raleway' sans-serif;
 	font-size: 1.2em;
+}
+.nature{
+	font-family:'Raleway', sans-serif;
+	font-size: 0.9em;
+}
+.photo_reservia{
+	display: flex:
+	align-self: flex-end;
 }
 
 .ville{
@@ -30,11 +39,6 @@ nav a{
 	width: 50px;
 	height: 40px;
 	border: 1px solid #F2F2F2;
-}
-.photo_reservia{
-	display: flex:
-	align-self: flex-end;
-
 }
 .rechercher{
 	background-color: blue;
@@ -61,23 +65,22 @@ nav a{
 	align-items: flex-start;
 }
 
-nav2 ul{
-	list-style-type: none;
-	display: flex;
-}
-nav2 li{
-	margin-right: 15PX;
-	flex-direction: row;
-	justify-content: space-between;
-}
-nav2 a{
-	font-weight: 1.3em;
-	color: black;
-	text-decoration: none;
-	font-weight: bold;
-}
 .description2{
 	font-family:'Raleway'sans-serif;
+	display: flex;
+	justify-content: flex-start;
+
+}
+.info{
+	border-radius: 50%;
+	border: 2px solid #DEEBFF;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.logements{
+	font-family:'Raleway'sans-serif;
+	display: flex;
+	padding-left: 10px;
 }
 article{
 	flex: 1.2;
@@ -96,16 +99,19 @@ article{
 }
 .money{
 	border: 1px #F2F2F2 solid;
-	border-radius: 10px 10px;
-	border-width: 2px;    
+	border-radius: 20px 20px;
+	border-width: 2px;
+	display: flex;    
+	align-items: baseline;
 }
 .eco{
 	font-family: 'Raleway' sans-serif;
 	display: flex;
-	align-items: baseline;		
+	align-items: flex-start;
+	padding-right: 10px;
+	padding-left: 10px;		
 }
-.bill
-{
+.bill{
 	display: flex;
 	align-items: center;
 	background: #DEEBFF;
@@ -114,6 +120,85 @@ article{
     height: 30px;
     padding-left: 5px;
 }
+.child{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px;
+	border-width: 2px;
+	display: flex;
+	align-items: baseline;    
+}
+.icon_child{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+.familial{
+	font-family: 'Raleway' sans-serif;
+	display: flex;
+	align-items: baseline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.icon_heart{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+}
+.heart{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px;
+	border-width: 2px; 
+	display: flex;
+	align-items: baseline;
+	padding-right: 10px;   
+}
+.romantique{
+	font-family: 'Raleway' sans-serif;
+	display: flex;
+	align-items: baseline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.dog{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px;
+	border-width: 2px; 
+	align-items: baseline; 
+	display: flex;  
+}
+.icon_dog{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+}
+.animaux{
+	font-family: 'Raleway' sans-serif;
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.marcus{
+	width: 20%;
+	height: 30px;
+	background-repeat: no-repeat;
+	border-radius: 10px 10px;
+
+}
+
+
 
 
 
