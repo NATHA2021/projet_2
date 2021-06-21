@@ -95,18 +95,24 @@ article{
 	color: #0065FC;
 }
 .money{
-	border: 2px #F2F2F2 solid;
-	border-radius: 20px 20px;
-	border-width: 5px;
-	padding-right: 30px;
-	padding-left: 10px;
-
+	border: 1px #F2F2F2 solid;
+	border-radius: 10px 10px;
+	border-width: 2px;    
 }
 .eco{
 	font-family: 'Raleway' sans-serif;
-	align-items: baseline ;
 	display: flex;
-
+	align-items: baseline;		
+}
+.bill
+{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
 }
 
 
