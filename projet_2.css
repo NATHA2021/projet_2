@@ -69,6 +69,8 @@ nav a{
 	font-family:'Raleway'sans-serif;
 	display: flex;
 	justify-content: flex-start;
+	padding-top: 20px;
+	padding-bottom: 25px;
 
 }
 .info{
@@ -76,6 +78,7 @@ nav a{
 	border: 2px solid #DEEBFF;
 	padding-right: 10px;
 	padding-left: 10px;
+
 }
 .logements{
 	font-family:'Raleway'sans-serif;
@@ -190,13 +193,18 @@ article{
 	padding-right: 10px;
 	padding-left: 10px;
 }
-.marcus{
-	width: 20%;
-	height: 30px;
-	background-repeat: no-repeat;
-	border-radius: 10px 10px;
 
+.hotel {
+	border-radius: 10px 10px;
+	background-color: white;
 }
+.hotel img{
+	width:200px;
+	height:118px;
+	}
+
+	
+
 
 
 
