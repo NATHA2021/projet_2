@@ -87,8 +87,8 @@ nav a{
 }
 article{
 	flex: 1.2;
-	width: 750px;
-	height: 350px;
+	width: 775px;
+	height: 450px;
 	position: left;
 	background-color: #F2F2F2;
 	box-shadow: 0px 2px 5px #F2F2F2;
@@ -197,11 +197,18 @@ article{
 .hotel {
 	border-radius: 10px 10px;
 	background-color: white;
+	height: 125;
+	
 }
 .hotel img{
 	width:200px;
 	height:118px;
+	display: flex;
+	justify-content: space-around;
 	}
+.stars{
+	color: blue;
+}
 
 	
 
