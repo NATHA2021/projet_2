@@ -11,38 +11,40 @@
       <script src="https://kit.fontawesome.com/1cb0844dd1.js" crossorigin="anonymous"></script>
       <title>Reservia</title>
   </head>
-<div class="bloc_page">
-    <body>
-      <header>
-        <section class="nav">
-          <nav>
-            <ul>
-            <li><a href="#">Hébergements</a></li>
-            <li><a href="">Activités</a></li>
-            <li><a href="#">S'incrire</a></li>
-            </ul>
-          </nav>
-        </Section>
-        <div class="photo_reservia"/>
-          <img src="images/logo/Reservia@3x.png" alt="logo" />
+<body>
+  <div class="bloc_page">
+    <header>
+      <div class="container">
+        <div class="photo_reservia">
+        <img src="images/logo/Reservia3x.png" alt="logo" />
+          <section class="nav a">
+            <nav>
+              <ul>
+                <li><a href="#">Hébergements</a></li>
+                <li><a href="#">Activités</a></li>
+                <li><a href="#">S'inscrire</a></li>
+              </ul>
+            </nav>
+          </section> 
+          </div>  
         </div>
       <header>
-    <div class="description">
-      <h5>Trouvez votre hébergement pour des vacances de rêve</h5>
-      <div class="nature"><p>En plein ville ou en plein nature</p></div>
+        <div class="description">
+            <h5>Trouvez votre hébergement pour des vacances de rêve</h5></div>
+              <div class="nature"><p>En plein ville ou en plein nature</p></div>
+        <form method="post">
+          <p>
+          <div class="input-group flex-nowrap">
+            <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fas fa-map-marker-alt"></i></span>
+             <input type="text" name="ville" value="Marseille,France" id="Marseille,France" size="25"/>
+            <button class="btn-secondary" type="button" id="button">Rechercher</button>
+          </div>
+          </div>
+          </div>
+        </form>
     </div>
-    <form method="post" action="traitement.php">
-      <div class="input-group mb-3">
-        <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
-          <select name="Ville" id="ville" class="form-control" style="width:auto">
-            <option value="ville">Marseille,France</option>
-          </select>
-          <button class="btn btn-outline-secondary btn-primary text-white" type="button" id="button-addon2">Rechercher</button>
-      </div>
-    </form>
-    <section class=filters>
-      <div class="container1">
-        <p>Filters</p>
+    <div class="container1">
+        <div class=filters><p>Filters</p></div>
         <div class="money">
          <div class="bill"><i class="blue fas fa-money-bill-wave "></i></div><div class="eco">Economique</div>
         </div>    
@@ -54,33 +56,32 @@
         </div>
         <div class="dog">
           <div class="icon_dog"><i class="blue fas fa-dog"></i></div><div class="animaux">Animaux autorisés</div>
-        </div> 
-      <div>
+    <div>
     </section>         
       <div class="description2">
         <div class="info"><i class="blue fas fa-info"></i></div><div class=logements>Plus de 500 logements sont disponibles dans cette ville</div>
       </div>  
   <article>
     <section class="hebergements">
-      <div id="containter2">
+      <div class="containter2">
         <h6>Hébergements à Marseille</h6>
           <div class="row">
-            <div class="col-sm-4">
+            <div class="colonna">
               <div class="hotel">
-                <img src="images/hebergements/3_medium/marcus-loke.jpg" alt="marcus" /> 
+                <img src="images/hebergements/3_medium/marcus-loke.jpg/200x118" alt="marcus" /> 
                 <div class="hotel-description"><p>Auberge la Cannebière</p><span>Nuit à partir 25€</span></div>
                 <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" grey></i></div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="colonna">
               <div class="hotel"><img src="images/hebergements/3_medium/fred-kleber.jpg" alt="fred" /></div>
             </div>
-            <div class="col-sm-4">
+            <div class="colonna">
               <div class="hotel"><img src="images/hebergements/3_medium/reisetopia.jpg" alt="reisetopia" /></div>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-4">
+            <div class="colonna">
              <div class="hotel"><img src="images/hebergements/3_medium/annie-spratt.jpg" alt="annie" /></div>
             </div>
           </div>

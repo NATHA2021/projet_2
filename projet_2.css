@@ -3,13 +3,30 @@
 	font-family:'Raleway', sans-serif;
 }
 .bloc_page{
-	width: 900px;
-    margin-left: 50px ;
+	width: 1300px;
+    margin:auto;
+    
+}
+.photo_reservia{
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 40px;
+
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 775px;
+	align-content: flex-end;
+	flex-direction: row;
+	align-items: flex-end;
 }
 nav ul{
-	list-style-type: none;
 	display: flex;
-	justify-content: flex-end;
+	justify-items: flex-end;
+	list-style-type: none;
+	padding-top: 40px;
+
 }
 nav li{
 	margin-right: 45px;
@@ -17,59 +34,45 @@ nav li{
 nav a{
 	font-family:'Raleway', sans-serif;
 	font-size: 0.9em;
-	color: #0065FC ;
+	font-weight: bold;
 	text-decoration: none;
 }
-
+nav a:hover{
+	border-top: 2px solid #0065FC;
+	padding-top: 30px;
+}
 .description{
-	font-family: 'Raleway' sans-serif;
-	font-size: 1.2em;
+	font-family:'Raleway', sans-serif;
+	font-weight: bold;
+
 }
 .nature{
 	font-family:'Raleway', sans-serif;
 	font-size: 0.9em;
 }
-.photo_reservia{
-	display: flex:
-	align-self: flex-end;
-}
-
-.ville{
-	font-family: 'Raleway' sans-serif;
-	width: 50px;
-	height: 40px;
-	border: 1px solid #F2F2F2;
-}
-.rechercher{
-	background-color: blue;
-	width: 100px;
-	height: 40px;
-	border: 1px solid #0065FC;
-	border-radius: 5px;
-}
-.button{
+#button{
 	background-color: #0065FC;
-	color: white;
-}
-.label{
-	background-color: #F2F2F2;
-	border-left-radius:3px ;
+	border: none;
+	border-radius: 10px;
 }
 .container1{
 	color: black;
 	font-weight: bold;
 	font-family: 'Raleway' sans-serif;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	display: flex;
-	align-items: flex-start;
+	
 }
-
+.filters{
+	padding-top: 25px;
+	padding-left: 35px;
+}
 .description2{
 	font-family:'Raleway'sans-serif;
 	display: flex;
 	justify-content: flex-start;
-	padding-top: 20px;
+	padding-top: 25px;
 	padding-bottom: 25px;
 
 }
@@ -78,13 +81,16 @@ nav a{
 	border: 2px solid #DEEBFF;
 	padding-right: 10px;
 	padding-left: 10px;
-
 }
 .logements{
 	font-family:'Raleway'sans-serif;
 	display: flex;
 	padding-left: 10px;
 }
+.blue{
+	color: #0065FC;
+}
+
 article{
 	flex: 1.2;
 	width: 775px;
@@ -97,126 +103,3 @@ article{
 	color: black;
 	font-size: 0.9em;
 }
-.blue{
-	color: #0065FC;
-}
-.money{
-	border: 1px #F2F2F2 solid;
-	border-radius: 20px 20px;
-	border-width: 2px;
-	display: flex;    
-	align-items: baseline;
-}
-.eco{
-	font-family: 'Raleway' sans-serif;
-	display: flex;
-	align-items: flex-start;
-	padding-right: 10px;
-	padding-left: 10px;		
-}
-.bill{
-	display: flex;
-	align-items: center;
-	background: #DEEBFF;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding-left: 5px;
-}
-.child{
-	border: 1px #F2F2F2 solid;
-	border-radius: 20px 20px;
-	border-width: 2px;
-	display: flex;
-	align-items: baseline;    
-}
-.icon_child{
-	display: flex;
-	align-items: center;
-	background: #DEEBFF;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding-left: 8px;
-}
-.familial{
-	font-family: 'Raleway' sans-serif;
-	display: flex;
-	align-items: baseline;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-.icon_heart{
-	display: flex;
-	align-items: center;
-	background: #DEEBFF;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding-left: 7px;
-}
-.heart{
-	border: 1px #F2F2F2 solid;
-	border-radius: 20px 20px;
-	border-width: 2px; 
-	display: flex;
-	align-items: baseline;
-	padding-right: 10px;   
-}
-.romantique{
-	font-family: 'Raleway' sans-serif;
-	display: flex;
-	align-items: baseline;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-.dog{
-	border: 1px #F2F2F2 solid;
-	border-radius: 20px 20px;
-	border-width: 2px; 
-	align-items: baseline; 
-	display: flex;  
-}
-.icon_dog{
-	display: flex;
-	align-items: center;
-	background: #DEEBFF;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding-left: 7px;
-}
-.animaux{
-	font-family: 'Raleway' sans-serif;
-	display: flex;
-	align-items: center;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-
-.hotel {
-	border-radius: 10px 10px;
-	background-color: white;
-	height: 125;
-	
-}
-	width:200px;
-.hotel img{
-	width:200px;
-	height:118px;
-	display: flex;
-	justify-content: space-around;
-	}
-.stars{
-	color: blue;
-}
-
-	
-
-
-
-
-
-
-
-
