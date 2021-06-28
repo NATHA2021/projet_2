@@ -3,14 +3,15 @@
 	font-family:'Raleway', sans-serif;
 }
 .bloc_page{
-	width: 1300px;
+	width: 1200px;
     margin:auto;
     
 }
 .photo_reservia{
 	display: flex;
 	justify-content: flex-start;
-	padding-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 
 }
 nav{
@@ -44,7 +45,6 @@ nav a:hover{
 .description{
 	font-family:'Raleway', sans-serif;
 	font-weight: bold;
-
 }
 .nature{
 	font-family:'Raleway', sans-serif;
@@ -58,40 +58,140 @@ nav a:hover{
 .container1{
 	color: black;
 	font-weight: bold;
-	font-family: 'Raleway' sans-serif;
-	flex-direction: row;
-	justify-content: space-evenly;
 	display: flex;
-	
+	flex-direction: row;
+	justify-content:space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
 }
 .filters{
 	padding-top: 25px;
-	padding-left: 35px;
-}
-.description2{
-	font-family:'Raleway'sans-serif;
-	display: flex;
-	justify-content: flex-start;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	
 
 }
+.description2{
+	display: flex;
+	justify-content: flex-start;
+	align-content: space-around;
+	align-items: stretch;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	flex-direction: row;
+	padding-left: 135px;
+}
+
 .info{
 	border-radius: 50%;
 	border: 2px solid #DEEBFF;
-	padding-right: 10px;
 	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center
+
 }
 .logements{
 	font-family:'Raleway'sans-serif;
+	font-weight: 100;
 	display: flex;
+	justify-content: flex-start;
 	padding-left: 10px;
 }
 .blue{
 	color: #0065FC;
 }
 
-article{
+.money{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px; 
+	border-width: 2px;
+	display: flex;   
+	align-items: center;
+
+}
+.bill{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+}
+.child{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px;
+	border-width: 2px;
+	display: flex;
+	align-items: center;    
+}
+.icon_child{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 8px;
+}
+.familial{
+	font-family: 'Raleway' sans-serif;
+	display: flex;
+	align-items: baseline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.icon_heart{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+}
+.heart{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px;
+	border-width: 2px; 
+	display: flex;
+	align-items: center;
+	padding-right: 10px;   
+}
+.romantique{
+	font-family: 'Raleway' sans-serif;
+	display: flex;
+	align-items: baseline;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.dog{
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px 20px;
+	border-width: 2px; 
+	align-items: center; 
+	display: flex; 
+	justify-content: space-around; 
+
+}
+.icon_dog{
+	display: flex;
+	align-items: center;
+	background: #DEEBFF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+}
+.animaux{
+	font-family: 'Raleway' sans-serif;
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.hebergements{
 	flex: 1.2;
 	width: 775px;
 	height: 450px;
@@ -103,3 +203,15 @@ article{
 	color: black;
 	font-size: 0.9em;
 }
+.hotel {
+	border-radius: 10px 10px;
+	background-color: white;
+	height: 125;
+	width:200px;
+}
+.hotel img{
+	width:200px;
+	height:118px;
+	display: flex;
+	justify-content: space-around;
+	}
