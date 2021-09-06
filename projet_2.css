@@ -1,6 +1,6 @@
 /* Définition des polices personnalisées */
 @font-face{
-	font-family:'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .bloc_page{
@@ -34,7 +34,7 @@ nav li{
 	margin-right: 45px;
 }
 nav a{
-	font-family:'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 0.9em;
 	font-weight: bold;
 	text-decoration: none;
@@ -45,7 +45,7 @@ nav a:hover{
 	padding-top: 30px;
 }
 .description{
-	font-family:'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 }
 .ville{
@@ -126,8 +126,6 @@ nav a:hover{
 .info{
 	border-radius: 50%;
 	border: 2px solid #DEEBFF;
-	/*padding-left: 10px;
-	padding-right: 10px;*/
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -139,7 +137,7 @@ nav a:hover{
 	font-size: x-small;
 }
 .logements{
-	font-family: 'Raleway' sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 	display: flex;
 	justify-content: flex-start;
@@ -183,7 +181,7 @@ nav a:hover{
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    /*padding-left: 8px;*/
+   
 }
 
 .eco{
@@ -249,60 +247,97 @@ nav a:hover{
 	padding-right: 10px;
 	padding-left: 10px;
 }
-
-.hebergements{
+/*end of first headers*/
+.hebergements{/*thegrey*/
 	display: flex;
 	flex: 1.2;
 	width: 775px;
-	height: 450px;
+	height: 500px;
 	justify-content: flex-start;
 	background-color: #F2F2F2;
 	box-shadow: 0px 2px 5px #F2F2F2;
-	border-radius: 5px;
-	padding: 50px;
+	border-radius: 10px 10px 10px 10px;
+	padding: 30px;
+	flex-direction: column;
+}
+.title{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
 	color: black;
-	font-size: 0.9em;
-
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding-bottom: 3px;
+	align-content: center;
 }
 .hotel {
 	border-radius: 10px 10px;
 	background-color: white;
-	height: 125;
+	height: 190px;
 	width:200px;
 }
 .hotel img{
-	width:200px;
-	height:118px;
+	width:190px;
+	height:115px;
 	display: flex;
-	justify-content: center;
-	border-radius: 10px 10px;
-	align-items: center;
-	flex-direction: row;
-
+	align-content: center;
+	border-radius: 10px 10px 0 0;
+	text-align: center;
+	margin: 5px 0px 0px 5px;
+}
+.hotelname{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	color: black;
+	padding-left: 9px;
+	padding-top: 8px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	
+}
+.price{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+	color: black;
+	padding-left: 9px;
+	padding-top: 2px;
+	display: flex;
+	flex-direction: flex-start;
 }
 .stars{
 	display: flex;
 	color: blue;
 	flex-direction: row;
-	
+	padding-left: 9px;
+	padding-top: 2px;
 }
 .thegrey{
-		color: lightgrey;
-		display: flex;
+	color: lightgrey;
+	display: flex;
 }
 .container3{
-		display: flex;
-		justify-content: flex-start;
-		flex-direction: row;
-		align-content: space-around;
-
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
 }
 .row{
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
-		align-content: space-around;
-	}
-.input-group-text{
-		
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: space-between;
+	padding-top: 20px;
+}
+.container4{
+	display: flex;
+	justify-content:space-between;
+	flex-direction: row;
+
+}
+.row2{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 20px;
 }
