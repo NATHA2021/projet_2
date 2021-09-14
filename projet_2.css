@@ -261,14 +261,10 @@ nav a:hover{
 	box-shadow: 0px 2px 5px #F2F2F2;
 	border-radius: 10px 10px 10px 10px;
 	padding: 20px;
-	height: 360px;
+	height: 400px;
 	width: 585px;
 	margin-right: 20px;	
 }
-
-
-
-
 .title{
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
@@ -363,7 +359,7 @@ nav a:hover{
 	font-size: 0.8em;
 	display: flex;
 	justify-content: flex-start;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 .sidepart{
 	display: flex;
@@ -379,9 +375,9 @@ nav a:hover{
 	box-shadow: 0px 2px 5px #F2F2F2;
 	border-radius: 10px 10px 10px 10px;
 	padding: 10px;
-	height: 360px;
-	width: 200px;
-	margin-right: 20px;	
+	height: 400px;
+	width: 250px;
+	margin-right: 10px;	
 	flex-direction: column;
 }
 .populaires{
@@ -396,56 +392,45 @@ nav a:hover{
 .chartline{
 	display: flex;
 	justify-content: space-between;
-	margin-left: 70px;
+	margin-left: 80px;
 
 }
 .column{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 .hotel1{
 	border-radius: 10px 10px;
 	background-color: white;
-	height: 250px;
-	width: 550px;
+	height: 140px;
+	width: 265px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
 
 }
 .hotel1 img{
-
+    display: flex;
 	width: 120px;
 	height: 130px;
-	/*width:190px;*/
-	/*height:118px;*/
-	display: flex;
-	justify-content: flex-start;
-	border-radius: 10px 10px 0 0;
-	text-align: flex-start;
+	border-radius: 10px 0px 0px 10px;
 	margin: 5px 0px 0px 5px;
-	flex-direction: row;
-}
-.hotelname2{
-	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	margin-left: 140px;
-	padding-bottom: 150px;
 	
-	}
-
-
-
-
-
-
-	/*font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	font-size: 0.9em;
-	color: black;
-	padding-left: 9px;
-	padding-top: 8px;
+}
+.hotelname2 {
 	display: flex;
-	flex-direction: column-reverse;
-	align-content: flex-end;*/
+	align-items: flex-start;
+	flex-direction: column;
+}
+
+
+
+
+
+
+	
 	
