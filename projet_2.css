@@ -27,7 +27,7 @@ nav ul{
 	display: flex;
 	justify-items: flex-end;
 	list-style-type: none;
-	padding-top: 40px;
+	
 
 }
 nav li{
@@ -39,10 +39,11 @@ nav a{
 	font-weight: bold;
 	text-decoration: none;
 	color: #0065FC;
+	padding-top: 40px;
 }
 nav a:hover{
 	border-top: 2px solid #0065FC;
-	padding-top: 30px;
+	padding-top: 38px;
 }
 .description{
 	font-family: 'Raleway', sans-serif;
@@ -370,13 +371,12 @@ nav a:hover{
 
 .boxed2 {
 	display: flex;
-	flex: 1.2;
     background-color: #F2F2F2;
 	box-shadow: 0px 2px 5px #F2F2F2;
 	border-radius: 10px 10px 10px 10px;
 	padding: 10px;
-	height: 400px;
-	width: 250px;
+	height: 420px;
+	width: 350px;
 	margin-right: 10px;	
 	flex-direction: column;
 }
@@ -392,20 +392,20 @@ nav a:hover{
 .chartline{
 	display: flex;
 	justify-content: space-between;
-	margin-left: 80px;
+	margin-left: 200px;
 
 }
 .column{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 .hotel1{
 	border-radius: 10px 10px;
 	background-color: white;
-	height: 140px;
-	width: 265px;
+	height: 120px;
+	width: 340px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -414,8 +414,8 @@ nav a:hover{
 }
 .hotel1 img{
     display: flex;
-	width: 120px;
-	height: 130px;
+	width: 130px;
+	height: 120px;
 	border-radius: 10px 0px 0px 10px;
 	margin: 5px 0px 0px 5px;
 	flex-direction: column;
@@ -426,6 +426,165 @@ nav a:hover{
 	align-items: flex-start;
 	flex-direction: column;
 }
+.stars25{
+	display: flex;
+	padding-top: 35px;
+}
+.activites{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.9em;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+.container5{
+	display: flex;
+	justify-content: space-between;
+	
+
+
+	height: 500px ;
+}
+.picture_reno{
+	display: flex;
+	justify-content: flex-start;
+	
+	flex-direction: column;
+	}
+.picture_reno img{
+	display: flex;
+	flex-direction: row;
+}
+.hotel3{
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	height: 385px;
+	
+	/*display: flex;*/
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.hotel3 img{
+    display: flex;
+    justify-content: flex-start;
+	width: 225px;
+	height: 350px;
+	border-radius: 10px 10px 0px 0px;
+	flex-direction: column;
+
+}
+.nameplaces {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-top: 10px;
+	padding-left: 13px;
+	align-items: flex-start;
+
+}
+.picture_paul img{ 
+    display: flex;
+	width: 250px;
+	height: 150px;
+	border-radius: 10px 10px 0px 0px;
+	flex-direction: column;
+
+}
+.hotel4{
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	height: 180px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-bottom:  20px;
+
+}
+.nameplaces1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 10px;
+	padding-left: 13px;
+}
+.hotel5{
+	border-radius: 10px 10px 10px 10px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	height: 135px;
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-items: space-between;
+
+}
+.picture_kevin img{
+	display: flex;
+	width: 250px;
+	height: 100px;
+	border-radius: 10px 10px 0px 0px;
+	flex-direction: column;
+
+}
+/*footer*/
+
+.footgrey{
+	background-color: #F2F2F2;
+	box-shadow: 0px 2px 5px #F2F2F2;
+	border-radius: 10px 10px 10px 10px;
+	padding: 20px;
+	height: 150px;
+	width: 950px;
+	margin-right: 20px;
+}
+.a_propos{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.activity {
+	width: 1000px;
+}
+
+a{
+	text-decoration: none !important;
+	color: black;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+}
+.column4{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+li{
+	text-decoration: none;
+}
+
+.listes ul {
+	padding:  0;
+}
+
 
 
 
